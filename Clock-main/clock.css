@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    background-color: cyan;
+} 
+#container{
+    border:1px solid black;
+    border-radius: 0.8rem;
+    height: 60vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:khaki;
+    overflow-y:scroll;
+}
+#setAlarm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#h-m-s-ampm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#setAlarm,input{
+    margin: 1rem;
+}
+
+#clock{
+    font-weight: bolder;
+    color: brown;
+    background-color: chartreuse;
+    border-radius: 0.5rem;
+    line-height: 3rem;
+    width: 40%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
